@@ -475,7 +475,7 @@ class SubscriptionComponent extends Component {
 
 <h3 id="graphql-query-data-startPolling">`data.startPolling(interval)`</h3>
 
-This function will set up an interval and send a fetch request every time that interval ellapses. The function takes only one integer argument which allows you to configure how often you want your query to be executed in milliseconds. In other words, the `interval` argument represents the milliseconds between polls.
+This function will set up an interval and send a fetch request every time that interval elapses. The function takes only one integer argument which allows you to configure how often you want your query to be executed in milliseconds. In other words, the `interval` argument represents the milliseconds between polls.
 
 Polling is a good way to keep the data in your UI fresh. By refetching your data every 5,000 milliseconds (or 5 seconds, for example) you may effectively emulate realtime data without needing to build up a realtime backend.
 
